@@ -1,0 +1,96 @@
+
+.container_box{
+    display: flex;
+    justify-content: center;
+    background-color: #0766be;
+    margin: 50px auto;
+    width: 800px !important;
+    border-radius: 10px;
+    height: 80vh;
+    border: #020303 solid 2px ;
+
+}
+.container_box label{
+    color: white;
+}
+.container_box input{
+    border: #111316 solid 2px;
+}
+.form{
+    width: 600px;
+    margin-top: 30px;
+}
+.btn{
+    margin-left: 250px ;
+    
+}
+.list_box, .about_box{
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin: 20px auto ;
+    border: #D5D8DC solid 2px ;
+    border-radius: 10px;
+}
+
+.list_box h2{
+    font-family:monospace;
+    width: 97%;
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: white;
+    border: black solid 2px;
+    border-radius: 10px;
+
+}
+.list_box p{
+    color: #333333;
+    font-family: cursive;
+    font-size: 25px;
+    width: 97%;
+    text-align: left;
+    margin: 10px 10px;
+    padding: 10px;
+    padding-left: 50px;
+    background-color: #F7F7F7;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-header .date{
+    font-family: serif;
+    font-size: 20px;
+}
+.button_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85% !important;
+    margin: 10px 10px;
+    justify-content: center !important;
+}
+.button_box .btn{
+    margin: 5px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+label{
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

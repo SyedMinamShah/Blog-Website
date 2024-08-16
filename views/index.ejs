@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") %>
+<script>
+    document.getElementById("home").classList.add("active");
+</script>
+<div class="container_box container">
+    <div class="form">
+    <form action="/" method="post">
+        <label for="title">Title</label><br>
+        <input type="text" name="title" ><br>
+        <label for="content" name="content" value="content">Content</label><br>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea>
+        <button class="btn btn-primary my-4 " type="submit" name="submit">Create</button>
+    </form>
+    </div>
+</div>
+
+
+
+
+
+<%- include("partials/footer.ejs") %>
+          
